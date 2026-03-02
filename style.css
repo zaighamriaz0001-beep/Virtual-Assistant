@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 30px;
+    flex-direction: column;
+}
+
+#logo{
+    width: 14vw;
+    
+}
+h1{
+    color: white;
+    font-family: Protest Guerrilla;
+    user-select: none;
+}
+#voice{
+    position: relative;
+    top: 50px;
+    width: 10vw;
+    display: none;
+}
+
+#name{
+    color: rgb(241, 42, 16);
+    font-size: 40px;
+}
+#va{
+    color:rgb(24, 245, 175);
+    font-size: 40px;
+}
+
+#btn{
+    height: 50px;
+    width: 20%;
+    background: linear-gradient(to right, rgb(72, 157, 243), rgb(243, 30, 129));
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+    
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    margin-top: 90px;
+    color: red;
+    font-weight: bolder;
+}
+#btn:active{
+    color: red;
+}
